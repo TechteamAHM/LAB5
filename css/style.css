@@ -11,7 +11,7 @@ article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
-    padding:10;
+    padding:10px ;
     border:0;
     outline:0;
     vertical-align:baseline;
@@ -189,7 +189,7 @@ header::after {
     float: left;
     padding:10px 0;
     height: 10em;
-    width: 10m;
+    width: 10em;
     /* for logo*/
 }
 /* for nav bar*/
