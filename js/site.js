@@ -10,7 +10,7 @@ jQuery(function ($) {
 const password = document.getElementById('password')
 const form = document.getElementById('form')
 const errorElement = document.getElementById('error')
-const reason = document.getElementById('message')
+const reason = document.getElementById('our_textarea')
 
 form.addEventListener('submit', (e) => {
 
@@ -19,7 +19,7 @@ form.addEventListener('submit', (e) => {
   alert('Password must be between 6 to 20 characters')
   }
 // checking for more then 20 
-  if (message.value.length >= 50) {
+  if (our_textarea.value.length >= 50) {
    alert('message must be less than 50 characters')
   }
 
